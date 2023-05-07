@@ -1,0 +1,188 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #202020;
+        font-size: 16px;
+        line-height: 20px;
+        font-size: 16px;
+        gap: 10px;
+
+        li {
+          &::before {
+            content: "/";
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .section-1 {
+    width: 100%;
+    padding: 210px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    h1 {
+      font-size: 22px;
+      line-height: 27px;
+      color: rgba(#202020, 0.5);
+      margin-bottom: 24px;
+
+      strong {
+        font-family: "Elsie Swash Caps", cursive;
+        font-size: 82px;
+        line-height: 94px;
+        color: #202020;
+        font-weight: 900;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      color: rgba(#202020, 0.5);
+      width: 100%;
+      max-width: 480px;
+    }
+
+    form {
+      background: #ffffff;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+      width: 580px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: stretch;
+
+      input {
+        flex-grow: 1;
+        border: none;
+        padding: 24px;
+      }
+
+      button {
+        background: #ffcb47;
+        box-shadow: 10px 10px 30px rgba(255, 203, 71, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 24px;
+        color: white;
+        cursor: pointer;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+
+  .section-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      width: 100%;
+
+      .image {
+        width: 545px;
+        height: 440px;
+        display: block;
+        overflow: hidden;
+
+        img {
+          object-fit: cover;
+        }
+      }
+
+      .text {
+        padding: 32px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 32px;
+
+        h2 {
+          font-size: 22px;
+          line-height: 27px;
+          color: rgba(#202020, 0.5);
+
+          strong {
+            font-family: "Elsie Swash Caps", cursive;
+            color: #202020;
+            font-weight: 900;
+            font-size: 42px;
+            line-height: 48px;
+          }
+        }
+
+        ul {
+          list-style: none;
+          color: rgba(#202020, 0.5);
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 24px;
+
+          li {
+            padding-left: 76px;
+            font-size: 22px;
+            line-height: 52px;
+
+            &:before {
+              content: "";
+              background-color: #ffcb47;
+              width: 52px;
+              height: 52px;
+              border-radius: 50%;
+              display: block;
+              position: absolute;
+              left: 0;
+              top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
