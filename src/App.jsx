@@ -1,5 +1,6 @@
 import logo from "./assets/casa-verde-logo.svg";
 import plant1 from "./assets/plant-1.png";
+import plant2 from "./assets/plant-2.png";
 
 import { MailIcon } from "lucide-react";
 
@@ -67,40 +68,71 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="section-3">
         <h2>
-          Conheça nossas <strong>ofertas</strong>
+          Conheça nossas <br />
+          <strong>ofertas</strong>
         </h2>
         <div className="offers">
           <div className="offer">
-            <div className="title">Ajuga reptans</div>
-            <div className="price">R$ 20,00</div>
-            <a href="#">Comprar</a>
+            <div className="image">
+              <img src={plant2} />
+            </div>
+            <div className="content">
+              <div className="title">Ajuga reptans</div>
+              <div className="price">R$ 20,00</div>
+              <a href="#">Comprar</a>
+            </div>
           </div>
           <div className="offer">
-            <div className="title">Ajuga reptans</div>
-            <div className="price">R$ 20,00</div>
-            <a href="#">Comprar</a>
+            <div className="image">
+              <img src={plant2} />
+            </div>
+            <div className="content">
+              <div className="title">Ajuga reptans</div>
+              <div className="price">R$ 20,00</div>
+              <a href="#">Comprar</a>
+            </div>
           </div>
           <div className="offer">
-            <div className="title">Ajuga reptans</div>
-            <div className="price">R$ 20,00</div>
-            <a href="#">Comprar</a>
+            <div className="image">
+              <img src={plant2} />
+            </div>
+            <div className="content">
+              <div className="title">Ajuga reptans</div>
+              <div className="price">R$ 20,00</div>
+              <a href="#">Comprar</a>
+            </div>
           </div>
           <div className="offer">
-            <div className="title">Ajuga reptans</div>
-            <div className="price">R$ 20,00</div>
-            <a href="#">Comprar</a>
+            <div className="image">
+              <img src={plant2} />
+            </div>
+            <div className="content">
+              <div className="title">Ajuga reptans</div>
+              <div className="price">R$ 20,00</div>
+              <a href="#">Comprar</a>
+            </div>
           </div>
           <div className="offer">
-            <div className="title">Ajuga reptans</div>
-            <div className="price">R$ 20,00</div>
-            <a href="#">Comprar</a>
+            <div className="image">
+              <img src={plant2} />
+            </div>
+            <div className="content">
+              <div className="title">Ajuga reptans</div>
+              <div className="price">R$ 20,00</div>
+              <a href="#">Comprar</a>
+            </div>
           </div>
           <div className="offer">
-            <div className="title">Ajuga reptans</div>
-            <div className="price">R$ 20,00</div>
-            <a href="#">Comprar</a>
+            <div className="image">
+              <img src={plant2} />
+            </div>
+            <div className="content">
+              <div className="title">Ajuga reptans</div>
+              <div className="price">R$ 20,00</div>
+              <a href="#">Comprar</a>
+            </div>
           </div>
         </div>
       </section>

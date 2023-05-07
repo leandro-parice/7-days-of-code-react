@@ -108,7 +108,7 @@
     justify-content: flex-start;
     align-items: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 44px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,6 +180,82 @@
               left: 0;
               top: 0;
             }
+          }
+        }
+      }
+    }
+  }
+
+  .section-3 {
+    h2 {
+      font-size: 22px;
+      line-height: 27px;
+      color: rgba(#202020, 0.5);
+      text-align: center;
+      margin-bottom: 32px;
+
+      strong {
+        font-family: "Elsie Swash Caps", cursive;
+        color: #202020;
+        font-weight: 900;
+        font-size: 82px;
+        line-height: 94px;
+      }
+    }
+
+    .offers {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 30px;
+
+      .offer {
+        width: calc(33.33% - 30px);
+        height: 200px;
+        background: #ffffff;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+
+        .image {
+          width: 50%;
+        }
+
+        .content {
+          width: 50%;
+          padding: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 12px;
+          flex-direction: column;
+
+          .title {
+            font-family: "Elsie Swash Caps", cursive;
+            color: #202020;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 37px;
+          }
+
+          .price {
+            font-size: 16px;
+            line-height: 20px;
+            color: rgba(#202020, 0.5);
+          }
+
+          a {
+            font-size: 16px;
+            line-height: 20px;
+            display: block;
+            color: #ffcb47;
+            padding: 12px 0;
           }
         }
       }
