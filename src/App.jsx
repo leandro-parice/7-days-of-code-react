@@ -2,8 +2,6 @@ import logo from "./assets/casa-verde-logo.svg";
 import plant1 from "./assets/plant-1.png";
 import plant2 from "./assets/plant-2.png";
 
-import { MailIcon } from "lucide-react";
-
 const App = () => {
   return (
     <div className="app">
