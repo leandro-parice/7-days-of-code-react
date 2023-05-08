@@ -17,6 +17,7 @@ See: [https://leandroparice-7daysofcode-react.netlify.app/](https://leandroparic
 - Javascript
 - ReactJS
 - Vite
+- Styled Components
 - Sass
 - JSX
 - GitHub
