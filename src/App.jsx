@@ -1,3 +1,4 @@
+import { ArrowRightIcon, MailIcon, MenuIcon } from "lucide-react";
 import logo from "./assets/casa-verde-logo.svg";
 import plant1 from "./assets/plant-1.png";
 import plant2 from "./assets/plant-2.png";
@@ -10,6 +11,9 @@ const App = () => {
           <img src={logo} />
         </a>
         <nav>
+          <button>
+            <MenuIcon />
+          </button>
           <ul>
             <li>
               <a href="#">Como fazer</a>
@@ -43,7 +47,10 @@ const App = () => {
             novidades da marca.
           </p>
           <form action="#">
-            <input type="text" placeholder="Insira seu e-mail" />
+            <div className="icon">
+              <MailIcon size={16} />
+            </div>
+            <input type="email" required placeholder="Insira seu e-mail" />
             <button>Assinar newsletter</button>
           </form>
         </div>
@@ -79,7 +86,9 @@ const App = () => {
             <div className="content">
               <div className="title">Ajuga reptans</div>
               <div className="price">R$ 20,00</div>
-              <a href="#">Comprar</a>
+              <a href="#">
+                Comprar <ArrowRightIcon />
+              </a>
             </div>
           </div>
           <div className="offer">
@@ -89,7 +98,9 @@ const App = () => {
             <div className="content">
               <div className="title">Ajuga reptans</div>
               <div className="price">R$ 20,00</div>
-              <a href="#">Comprar</a>
+              <a href="#">
+                Comprar <ArrowRightIcon />
+              </a>
             </div>
           </div>
           <div className="offer">
@@ -99,7 +110,9 @@ const App = () => {
             <div className="content">
               <div className="title">Ajuga reptans</div>
               <div className="price">R$ 20,00</div>
-              <a href="#">Comprar</a>
+              <a href="#">
+                Comprar <ArrowRightIcon />
+              </a>
             </div>
           </div>
           <div className="offer">
@@ -109,7 +122,9 @@ const App = () => {
             <div className="content">
               <div className="title">Ajuga reptans</div>
               <div className="price">R$ 20,00</div>
-              <a href="#">Comprar</a>
+              <a href="#">
+                Comprar <ArrowRightIcon />
+              </a>
             </div>
           </div>
           <div className="offer">
@@ -119,7 +134,9 @@ const App = () => {
             <div className="content">
               <div className="title">Ajuga reptans</div>
               <div className="price">R$ 20,00</div>
-              <a href="#">Comprar</a>
+              <a href="#">
+                Comprar <ArrowRightIcon />
+              </a>
             </div>
           </div>
           <div className="offer">
@@ -129,7 +146,9 @@ const App = () => {
             <div className="content">
               <div className="title">Ajuga reptans</div>
               <div className="price">R$ 20,00</div>
-              <a href="#">Comprar</a>
+              <a href="#">
+                Comprar <ArrowRightIcon />
+              </a>
             </div>
           </div>
         </div>
