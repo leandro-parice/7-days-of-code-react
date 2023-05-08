@@ -27,9 +27,8 @@ See: [https://leandroparice-7daysofcode-react.netlify.app/](https://leandroparic
 - Desktop version ✔️
 - Responsive
 - Images position
-- Read.me update
+- Fixed header
 - Icons
-- Favicons
 - Styled Components
 - Form validation
 

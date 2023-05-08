@@ -109,36 +109,13 @@ body {
       margin-bottom: 64px;
     }
 
-    h1 {
-      font-size: 22px;
-      line-height: 27px;
-      color: rgba(#202020, 0.5);
-      margin-bottom: 24px;
-
-      strong {
-        font-family: "Elsie Swash Caps", cursive;
-        font-size: 82px;
-        line-height: 94px;
-        color: #202020;
-        font-weight: 900;
-
-        @media only screen and (max-width: 768px) {
-          font-size: 50px;
-          line-height: 50px;
-        }
-      }
-    }
-
     p {
       font-size: 16px;
       line-height: 26px;
       color: rgba(#202020, 0.5);
       width: 100%;
       max-width: 480px;
-
-      @media only screen and (max-width: 768px) {
-        margin-bottom: 32px;
-      }
+      margin-bottom: 32px;
     }
 
     form {
