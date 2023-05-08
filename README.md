@@ -35,9 +35,15 @@ See: [https://leandroparice-7daysofcode-react.netlify.app/](https://leandroparic
 
 ### About 7 days of code
 
+7 days of code é um desafio desenvolvido pela Alura, onde o participante recebe diarimente metas para desenvolver algo em uma linguagem específica, com o propósito de praticar e estudar.
+
+See: [https://7daysofcode.io/](https://7daysofcode.io/)
+
 ### About this challenge
 
-See:
+In this challenge, the objective is to create an e-commerce page with different components.
+
+See: [https://7daysofcode.io/matricula/react](https://7daysofcode.io/matricula/react)
 
 ### Licence
 
