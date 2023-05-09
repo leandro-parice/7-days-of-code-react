@@ -109,6 +109,26 @@ body {
       margin-bottom: 64px;
     }
 
+    h1 {
+      font-size: 22px;
+      line-height: 27px;
+      color: rgba(#202020, 0.5);
+      margin-bottom: 24px;
+
+      strong {
+        font-family: "Elsie Swash Caps", cursive;
+        font-size: 82px;
+        line-height: 94px;
+        color: #202020;
+        font-weight: 900;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 50px;
+          line-height: 50px;
+        }
+      }
+    }
+
     p {
       font-size: 16px;
       line-height: 26px;
@@ -340,7 +360,7 @@ body {
 
         .content {
           width: 50%;
-          padding: 25px;
+          padding: 20px;
           display: flex;
           justify-content: center;
           align-items: flex-start;
@@ -351,8 +371,8 @@ body {
             font-family: "Elsie Swash Caps", cursive;
             color: #202020;
             font-weight: 900;
-            font-size: 32px;
-            line-height: 37px;
+            font-size: 30px;
+            line-height: 30px;
           }
 
           .price {
